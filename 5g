@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>₹10 Recharge</title>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    background: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 400px;
+    margin: auto;
+    padding: 15px;
+}
+
+.header {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.plan-card {
+    background: #fff;
+    border-radius: 15px;
+    padding: 15px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    margin-top: 15px;
+}
+
+.price {
+    font-size: 28px;
+    font-weight: bold;
+    color: #000;
+}
+
+.details {
+    margin-top: 10px;
+    color: #555;
+    font-size: 14px;
+}
+
+.buy-btn {
+    margin-top: 15px;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 25px;
+    background: #007bff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.buy-btn:hover {
+    background: #0056b3;
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+    <div class="header">Recharge ₹10 Plan</div>
+
+    <div class="plan-card">
+        <div class="price">₹10</div>
+        
+        <div class="details">
+            Validity: 1 Day <br>
+            Data: 100 MB <br>
+            Calls: Not Included
+        </div>
+
+        <button class="buy-btn" onclick="buyPlan()">Buy Now</button>
+    </div>
+</div>
+
+<script>
+function buyPlan() {
+    alert("₹10 Recharge Successful!");
+}
+</script>
+
+</body>
+</html>
