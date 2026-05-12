@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Wallet ₹100000</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #7a0000, #b30000);
+    color: white;
+}
+
+/* Header */
+.header {
+    background: #a00000;
+    padding: 15px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/* Balance Section */
+.balance-box {
+    text-align: center;
+    padding: 40px 20px;
+    background: radial-gradient(circle, #ff3c3c, #7a0000);
+}
+
+.balance-box h3 {
+    margin: 0;
+    font-weight: normal;
+}
+
+.balance {
+    font-size: 50px;
+    color: gold;
+    margin-top: 10px;
+}
+
+/* Tips */
+.section {
+    padding: 20px;
+    font-size: 14px;
+    color: #ddd;
+}
+
+.section h4 {
+    color: white;
+}
+
+/* Buttons */
+.buttons {
+    position: fixed;
+    bottom: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn {
+    width: 40%;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.withdraw {
+    background: #990000;
+    color: white;
+}
+
+.deposit {
+    background: linear-gradient(#ffd700, #ffb300);
+    color: black;
+    font-weight: bold;
+}
+</style>
+</head>
+
+<body>
+
+<div class="header">Wallet</div>
+
+<div class="balance-box">
+    <h3>My Balance</h3>
+    <div class="balance">₹100000</div>
+</div>
+
+<div class="section">
+    <h4>Deposit tips:</h4>
+    <p>1. Each deposit will be credited within 1-5 minutes.</p>
+    <p>2. You can contact customer service anytime.</p>
+</div>
+
+<div class="section">
+    <h4>Withdraw tips:</h4>
+    <p>Withdrawal usually arrives within 2 hours (max 24 hours).</p>
+</div>
+
+<div class="buttons">
+    <button class="btn withdraw">Withdraw</button>
+    <button class="btn deposit">Deposit</button>
+</div>
+
+</body>
+</html>
